@@ -1,16 +1,20 @@
 /* second section */
 .my-row{
     display: flex;
+    height: calc(100vh - 70px);
+    margin-top: 70px;
 }
+
+/* aside */
 .my-col-small{
     width: 200px;
     display: flex;
     background-color: aquamarine;
     height: 100%;
 }
+/* third-section */
 .my-col-big{
     flex-grow: 1;
     background-color: violet;
     overflow-y: auto;
 }
-
