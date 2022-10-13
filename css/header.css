@@ -7,3 +7,6 @@ header{
     width: 100%;
     height: 4.375rem;
 }
+.logo{
+    max-width: 12.5rem;
+}

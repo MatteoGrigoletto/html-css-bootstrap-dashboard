@@ -2,9 +2,29 @@
 
 .my-button{
     border-radius: 1.25rem;
-    background-color: var(--primary-button-color);
     border:none;
     color:var(--white-color);
     font-size: 0.7rem;
     vertical-align: middle;
+}
+.top-main button{
+    background-color: var(--primary-button-color);
+}
+.my-button-card{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: .25rem;
+    font-weight: bold;
+    color: var(--blue-color-500);
+    border: 1px solid blue;
+}
+.my-small-button-card{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+/* table */
+.table th:not(:first-child),
+.table td:not(:first-child){
+    text-align: center;
 }

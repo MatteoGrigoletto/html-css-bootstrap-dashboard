@@ -26,7 +26,7 @@
 <!-- left col header -->
                         <div class="col-2">
                             <div>
-                                <img class="d-none d-lg-block" src="img/logo.svg" alt="">
+                                <img class="d-none d-lg-block logo" src="img/logo.svg" alt="">
                                 <!-- <img class="d-lg-none d-xl-none d-xl-block" src="img/mobile-logo.png" alt=""> -->
                             </div>
                         </div>
@@ -78,25 +78,25 @@
 <!-- aside -->
                     <aside>
 <!-- my col small -->
-                        <div class="my-col-small flex-column p-3 ">
+                        <div class="my-col-small flex-column p-3 text-center">
                             <div class="col-12">
                                 <div>
-                                    <i class="fa-solid fa-house"></i> Home
+                                    <i class="fa-solid fa-house"></i><span class="d-none d-lg-inline"> Home </span>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div>
-                                    <i class="fa-solid fa-chart-simple"></i> Stats
+                                    <i class="fa-solid fa-chart-simple"></i><span class="d-none d-lg-inline"> Stats</span>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div>
-                                    <i class="fa-solid fa-signal"></i> Signals
+                                    <i class="fa-solid fa-signal"></i><span class="d-none d-lg-inline"> Signals </span>
                                 </div>
                             </div>
-                            <div class="col-12 flex-grow-1 row align-items-end">
+                            <div class="col-12 flex-grow-1 d-flex align-items-end">
                                 <div>
-                                    <i class="fa-solid fa-gear"></i> Admin
+                                    <i class="fa-solid fa-gear"></i><span class="d-none d-lg-inline"> Admin </span>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +124,51 @@
                                 <span>125</span>
                             </div>
                         </div>  
-                        <div class="row"></div>
+                        <div class="row">
+                            <div class="col-12 col-lg-8">
+                                <div class="card">
+                                    <div class="card-header d-flex justify-content-between">
+                                        <h3 class="d-inline">Prossime classi</h3>
+                                        <button class="my-button-card"> + </button>
+                                    </div>
+                                    <div class="card-body">
+                                        <blockquote class="blockquote mb-0">
+                                        
+                                            <table class="table">
+                                                <thead>
+                                                  <tr class="">
+                                                    <th class="col-6" scope="col">Nome</th>
+                                                    <th scope="col">Data inizio</th>
+                                                    <th scope="col">ROI</th>
+                                                    <th scope="col">Stato</th>
+                                                    <th scope="col">Azioni</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <th scope="row">
+                                                        <img class="table-avatar d-inline-block" src="img/class-avatar.jpg" alt="">
+                                                        <span>Classe 75</span>
+                                                    </th>
+                                                    <td>15 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td>
+                                                        <button class="my-button">Done</button>
+                                                    </td>
+                                                    <td>
+                                                        <button class="my-button-card my-small-button-card"></button>
+                                                        <button class="my-button-card my-small-button-card"></button>
+                                                    </td>
+                                                  </tr>
+                                                  
+                                                </tbody>
+                                              </table>
+                                        <!-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> -->
+                                        </blockquote>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
