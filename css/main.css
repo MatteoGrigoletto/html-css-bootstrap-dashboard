@@ -12,7 +12,6 @@
     background-color: aquamarine;
     height: 100%;
 }
-/* third-section */
 .my-col-big{
     flex-grow: 1;
     background-color: violet;
