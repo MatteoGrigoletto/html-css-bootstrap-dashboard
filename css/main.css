@@ -1,0 +1,16 @@
+/* second section */
+.my-row{
+    display: flex;
+}
+.my-col-small{
+    width: 200px;
+    display: flex;
+    background-color: aquamarine;
+    height: 100%;
+}
+.my-col-big{
+    flex-grow: 1;
+    background-color: violet;
+    overflow-y: auto;
+}
+
