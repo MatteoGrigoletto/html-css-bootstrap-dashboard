@@ -17,3 +17,11 @@
     background-color: violet;
     overflow-y: auto;
 }
+/* my col big */
+
+/* background color main */
+
+.top-main{
+    background-color: var(--blue-color-500);
+    color:var(--white-color);
+}
