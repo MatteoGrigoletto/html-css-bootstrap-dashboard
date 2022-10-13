@@ -9,12 +9,12 @@
 .my-col-small{
     max-width: 200px;
     display: flex;
-    background-color: aquamarine;
+    background-color: var(--blue-color-800);
+    color: var(--white-color);
     height: 100%;
 }
 .my-col-big{
     flex-grow: 1;
-    background-color: violet;
     overflow-y: auto;
 }
 /* my col big */
@@ -29,5 +29,5 @@
 
 .table-avatar{
     width: 1.5625rem;
-   
 }
+
