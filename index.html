@@ -52,14 +52,14 @@
                                             <li class="nav-item d-none d-xl-block">
                                                 <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                                             </li>
-                                            <li>
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i class="fa-solid fa-bell"></i></a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                <a class="dropdown-item" href="#">a</a>
-                                                <a class="dropdown-item" href="#">Aa</a>
-                                                <a class="dropdown-item" href="#">Saaa</a>
-                                            </div>
+                                            <li class="bell">
+                                                <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="fa-regular fa-bell"></i></a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                    <a class="dropdown-item" href="#">Profilo</a>
+                                                    <a class="dropdown-item" href="#">Fatturazione</a>
+                                                    <a class="dropdown-item" href="#">Logout</a>
+                                                </div>
                                             </li>
                                         </ul>
                                     </div>
@@ -112,7 +112,7 @@
                                 </div>
                                 <div>
                                     <button class="my-button"> 3 app</button>
-                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                    <span><i class="fa-solid fa-angles-right"></i></span>
                                     <button class="d-lg-none d-xl-none my-button "> + </button>
                                     <button class="my-button  d-none d-lg-inline"> Boolean mobile app</button>
                                     <button class="my-button  d-none d-lg-inline"> Boolean web app</button>
@@ -134,11 +134,22 @@
                                         <button class="btn btn-primary bg-white text-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> + </button>
                                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                             <div class="offcanvas-header">
-                                                <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                                                <h5 id="offcanvasRightLabel">Aggiungi Classe</h5>
                                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                             </div>
                                             <div class="offcanvas-body">
-                                            ...
+                                                <form>
+                                                    <div class="form-group my-2">
+                                                      <label for="exampleInputEmail1 ">Nome</label>
+                                                      <input type="email" class="form-control my-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Classe ---">
+                                                    </div>
+                                                    <div class="form-group my-2">
+                                                      <label for="exampleInputPassword1">Data Inizio</label>
+                                                      <input type="date" class="form-control my-2" id="exampleInputPassword1">
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary my-2">Salva</button>
+                                                    <button type="submit" class="btn btn-primary bg-warning my-2 ">Reset</button>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>

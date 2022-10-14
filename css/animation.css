@@ -30,8 +30,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/* table */
-.table th:not(:first-child),
-.table td:not(:first-child){
-    text-align: center;
+
+/* dropdown color */
+.bell :focus{
+   color: var(--orange-color-600);
 }

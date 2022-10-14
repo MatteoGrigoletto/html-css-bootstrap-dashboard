@@ -30,4 +30,8 @@
 .table-avatar{
     width: 1.5625rem;
 }
-
+/* table */
+.table th:not(:first-child),
+.table td:not(:first-child){
+    text-align: center;
+}
