@@ -6,6 +6,7 @@
 }
 
 /* aside */
+
 .my-col-small{
     max-width: 200px;
     background-color: var(--blue-color-800);
@@ -16,8 +17,11 @@
     flex-grow: 1;
     overflow-y: auto;
 }
-
 /* my col big */
+
+.my-col-big h2{
+    vertical-align: middle;
+}
 
 /* background color main */
 
