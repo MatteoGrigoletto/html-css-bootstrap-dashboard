@@ -29,3 +29,22 @@
 .bell :focus{
    color: var(--orange-color-600);
 }
+
+/* aside animazion circle white */
+
+aside{
+    position: relative;
+    overflow: hidden;
+}
+aside::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 100%;
+    background-color: rgba(233, 232, 232, 0.1);
+    top: 6%;
+    right: -100%;
+
+}
